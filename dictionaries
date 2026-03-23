@@ -1,0 +1,34 @@
+#Dictionaries
+
+# Define the dictionary
+d = {
+    "height": "10",
+    "width": "12",
+    "length": "15"
+}
+
+# Print the dictionary (includes curly brackets)
+print(d)
+
+# Print all the values
+for i in d.keys():
+    print(d[i])
+
+# Print all the keys
+print(d.keys())
+
+# Print the height key and its value
+print("height", d["height"])
+
+# Print all keys and values
+for i, j in d.items():
+    print(i, j)
+
+# Copy the first dictionary to the second dictionary
+d2 = d.copy()
+
+# Print the second dictionary
+print(d2)
+
+# Finding the length of a dictionary
+print(len(d))
