@@ -1,0 +1,26 @@
+#Average Marks
+
+# Ask the user to enter the marks of their 5 subjects
+eng = int(input("What is your grade on English?"))
+sci = int(input("What is your grade on Science?"))
+math = int(input("What is your grade on Math?"))
+lit = int(input("What is your grade on Literature?"))
+ss = int(input("What is your grade on Social Studies?"))
+
+# Store the data in a dictionary
+marks = {
+    "english": eng,
+    "science": sci,
+    "math": math,
+    "literature": lit,
+    "social studies": ss
+}
+
+# Store the sum of the marks in a variable
+total = marks["english"] + marks["science"] + marks["math"] + marks["literature"] + marks["social studies"]
+
+# Divide the sum by the length of the dictionary
+average = total / len(marks)
+
+# Print the average marks
+print("Your averge grade is", average)
