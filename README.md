@@ -1,2 +1,2 @@
 # python-game-coding
-Coding python games
+This repository is made for learning making games in Python on JetLearn.
