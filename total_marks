@@ -1,0 +1,20 @@
+#Total Marks
+
+stu1 = input("What is the first student's name?")
+stu2 = input("What is the second student's name?")
+stu3 = input("What is the third student's name?")
+stu1_1 = int(input(stu1+", what is your mark on Math?"))
+stu1_2 = int(input(stu1+", what is your mark on Science?"))
+stu1_3 = int(input(stu1+", what is your mark on English?"))
+stu2_1 = int(input(stu2+", what is your mark on Math?"))
+stu2_2 = int(input(stu2+", what is your mark on Science?"))
+stu2_3 = int(input(stu2+", what is your mark on English?"))
+stu3_1 = int(input(stu3+", what is your mark on Math?"))
+stu3_2 = int(input(stu3+", what is your mark on Science?"))
+stu3_3 = int(input(stu3+", what is your mark on English?"))
+stu1_total = stu1_1 + stu1_2 + stu1_3
+stu2_total = stu2_1 + stu2_2 + stu2_3
+stu3_total = stu3_1 + stu3_2 + stu3_3
+print(stu1+"'s total mark is "+str(stu1_total))
+print(stu2+"'s total mark is "+str(stu2_total))
+print(stu3+"'s total mark is "+str(stu3_total))
