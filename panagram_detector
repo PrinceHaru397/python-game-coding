@@ -1,0 +1,10 @@
+#Panagram Detector
+
+string1 = input("Enter any sentence").lower()
+alphabets = "abcdefhijklmnopqrstuvwxyz"
+for i in alphabets:
+    if i not in string1:
+        print("Not a panagram!")
+        break
+else:
+    print("It's a panagram!")
