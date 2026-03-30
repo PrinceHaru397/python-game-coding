@@ -1,0 +1,12 @@
+#String Length
+
+# Approach 1
+string1 = input("Enter a string.")
+print(len(string1))
+
+# Approach 2
+charcount = 0
+string2 = input("Enter a string.")
+for i in string2:
+    charcount+=1
+print(charcount)
