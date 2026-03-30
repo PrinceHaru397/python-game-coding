@@ -1,0 +1,29 @@
+#Vowel Counter
+
+# Approach 1
+string1 = input("Enter any string.").lower()
+vowels = {
+    "a": 0,
+    "e": 0,
+    "i": 0,
+    "o": 0,
+    "u": 0
+}
+# or vowels = ["a", "e", "i", "o", "u"]
+vowelcount = 0
+for i in string1:
+    if i in vowels:
+        vowelcount+=1
+print(vowelcount)
+
+# Approach 2
+string2 = input("Enter any string.").lower()
+vowels1 = ["a", "e", "i", "o", "u"]
+vowels2 = {}
+for c in string2:
+    if c in vowels1:
+        if c in vowels2:
+            vowels2[c]+=1
+        else:
+            vowels2[c]=1
+print(vowels2)
