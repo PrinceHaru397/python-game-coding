@@ -1,0 +1,4 @@
+list = []
+a = input("What value would you like to input into the list?")
+list.append(a)
+print(list)
