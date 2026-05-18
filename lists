@@ -1,0 +1,16 @@
+list = ["a", "b", "c"]
+
+# Prints the list directly
+print(list)
+
+m = [[1, 2, 3], [4, 5, 6], [63, 32, 1]]
+
+# Prints the length of the list (only the direct layer below)
+print(len(m))
+
+# Prints the length of the first list
+print(len(m[0]))
+
+# Iterate through the list
+for i in m:
+    print(i)
