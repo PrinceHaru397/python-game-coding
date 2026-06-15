@@ -8,6 +8,13 @@ print(t)
 for i in t:
     print(i)
 
-# Nested tuples
+# Define the nested tuple
 matrix = ((1, 2, 3), (4, 5, 6), (7, 8, 9))
+
+# Print the nested tuple
 print(matrix)
+
+# Print all the values
+for i in matrix:
+    for j in i:
+        print(j)
